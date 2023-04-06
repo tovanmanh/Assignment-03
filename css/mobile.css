@@ -1,0 +1,158 @@
+@media screen and (max-width: 600px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    #nav-bar .container0{
+        flex-direction: column;
+        height: auto;
+        align-items: baseline;
+        float: left;
+        margin: 10px 0;
+    }
+    .container0 a{
+        border: none !important;
+        padding: 10px;
+    }
+
+    #personal-info,#target{
+        padding-top: 50px;
+    }
+    #about .container0{
+        display: flex;
+        flex-direction: column;
+    }
+    #job-info .container0{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 60px 0;
+    }
+    .sothich_info{
+        width: 100%;
+        height: auto;
+        grid-template-rows: 100px 100px;
+        padding-top: 50px;
+    }
+    .sothich1,.sothich2,.sothich3,.sothich4{
+        grid-template-columns: auto;
+    }
+    .sothich1 i,.sothich2 i,.sothich3 i,.sothich4 i{
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+    }
+    .job_info{
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 90px 70%;
+        padding: 40px;
+    }
+    .job_info h2{
+        font-size: 40px;
+        align-self: last baseline;
+    }
+    .section-title{
+        font-size: 40px;
+    }
+    .job_info>i{
+        font-size: 50px;
+        color: rgb(100, 100, 100);
+        text-align: right;
+        align-self: flex-end;
+        margin-bottom: 8px;
+    }
+    .kinhnghiem{
+        order: -5;
+    }
+    .kinang{
+        order: -4;
+    }
+    .ngonngu{
+        order: -3;
+    }
+    .hoatdong{
+        order: -2;
+    }
+    .hocvan{
+        order: -1;
+    }
+    
+    #certificate .container0{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding-bottom: 80px;
+    }
+
+    .img_chungchi{
+        width: 100%;
+        height: 100%;
+    }
+    .chungchi_1,.chungchi_2,.chungchi_3{
+        padding: 0 30px;
+    }
+    .chungchi_2 img{
+        border-top: 1px solid orange;
+        padding-top: 50px;
+        margin-top: 20px;
+    }
+    .chungchi_2{
+        border:none;
+    }
+    .vien{
+        margin:20px 10px
+    }
+    #project .container0{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 40px 20px;
+        row-gap: 40px;
+    }
+    .img_duan{
+        width: 100%;
+        height: auto;
+    }
+    .duan_1,.duan_2,.duan_3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    .name_duan{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .icon_duan{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        grid-row-gap: 10px;
+        padding-bottom: 10px;
+        align-items: flex-start;
+    }
+    #footer{
+        margin-top: 40px;
+    }
+    .icon_footer span{
+        display: none;
+    }
+    .icon_footer{
+        grid-template-columns: repeat(3, 30px);
+        gap: 30px;
+        padding: 20px 0;
+    }
+    .hien{
+        margin-top: 80px;
+    }
+    .job_info:hover .an.hover{
+        margin-top: 80px;
+    }
+    
+}
